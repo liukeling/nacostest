@@ -11,6 +11,7 @@
 
     <artifactId>AdminUI</artifactId>
     <dependencies>
+        <!-- nacos的可视化管理系统 -->
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-server</artifactId>

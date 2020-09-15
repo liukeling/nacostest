@@ -18,6 +18,7 @@
         <version>2.3.3.RELEASE</version>
     </parent>
     <dependencies>
+        <!-- spring cloud 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -27,6 +28,7 @@
             <artifactId>spring-cloud-context</artifactId>
             <version>2.2.5.RELEASE</version>
         </dependency>
+        <!-- nacos 服务发现依赖 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
