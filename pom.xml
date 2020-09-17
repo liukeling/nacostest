@@ -11,6 +11,7 @@
     <modules>
         <module>AdminUI</module>
         <module>Test</module>
+        <module>TestZuul</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
