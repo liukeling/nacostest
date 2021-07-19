@@ -2,7 +2,9 @@ package com.lkl.zuul.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.exception.ZuulException;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TestPostFilter extends ZuulFilter {
     @Override
     public String filterType() {
