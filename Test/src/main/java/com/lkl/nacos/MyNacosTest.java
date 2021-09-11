@@ -17,9 +17,9 @@ import java.util.ArrayList;
 @EnableScheduling
 public class MyNacosTest {
     public static void main(String[] args){
-//        SpringApplication.run(MyNacosTest.class,args);
-        SpringApplication application = new SpringApplication(MyNacosTest.class);
-        application.addListeners(new StartListener());
-        application.run(args);
+        SpringApplication.run(MyNacosTest.class,args);
+//        SpringApplication application = new SpringApplication(MyNacosTest.class);
+//        application.addListeners(new StartListener());
+//        application.run(args);
     }
 }
