@@ -5,15 +5,15 @@ import com.netflix.zuul.exception.ZuulException;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TestPerFilter extends ZuulFilter {
+public class TestRouteFilter extends ZuulFilter {
     @Override
     public String filterType() {
-        return "per";
+        return FilterType.ROUTE.getType();
     }
 
     @Override
     public int filterOrder() {
-        return 0;
+        return 1;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class TestPerFilter extends ZuulFilter {
 
     @Override
     public Object run() throws ZuulException {
-        System.out.println("===========per filter execute===========");
+        System.out.println("==============test routing filter execute=====");
         return null;
     }
 }

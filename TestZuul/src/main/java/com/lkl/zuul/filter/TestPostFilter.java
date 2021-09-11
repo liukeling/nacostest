@@ -8,17 +8,17 @@ import org.springframework.stereotype.Component;
 public class TestPostFilter extends ZuulFilter {
     @Override
     public String filterType() {
-        return "post";
+        return FilterType.POST.getType();
     }
 
     @Override
     public int filterOrder() {
-        return 0;
+        return 1;
     }
 
     @Override
     public boolean shouldFilter() {
-        return false;
+        return true;
     }
 
     @Override
